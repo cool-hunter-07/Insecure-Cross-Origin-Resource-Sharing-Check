@@ -1,0 +1,2 @@
+# Insecure-Cross-Origin-Resource-Sharing-Check
+CORS (Cross-Origin Resource Sharing) defines a mechanism to enable client-side cross-origin requests. This application is using CORS in an insecure way. The web application returns the following headers:  Access-Control-Allow-Credentials: true Access-Control-Allow-Origin: copy of the Origin header from request  In this configuration any website can issue requests made with user credentials and read the responses to these requests.
